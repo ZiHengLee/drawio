@@ -42,7 +42,7 @@
         <mxCell id="xp_wefksQ9KYBnecpLCK-21" value="其他业务处理,邀请返佣，策略返佣" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="xp_wefksQ9KYBnecpLCK-9">
           <mxGeometry x="30" y="310" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="xp_wefksQ9KYBnecpLCK-11" value="order-center" style="swimlane;startSize=20;html=1;" vertex="1" parent="1">
+        <mxCell id="xp_wefksQ9KYBnecpLCK-11" value="trade-core" style="swimlane;startSize=20;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="50" width="130" height="510" as="geometry" />
         </mxCell>
         <mxCell id="xp_wefksQ9KYBnecpLCK-16" value="交易订单下单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xp_wefksQ9KYBnecpLCK-11">
