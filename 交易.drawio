@@ -19,6 +19,12 @@
         <mxCell id="xp_wefksQ9KYBnecpLCK-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;获取用户交易相关配置&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xp_wefksQ9KYBnecpLCK-8">
           <mxGeometry x="20" y="47.5" width="90" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="xp_wefksQ9KYBnecpLCK-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xp_wefksQ9KYBnecpLCK-8" target="xp_wefksQ9KYBnecpLCK-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="310" as="sourcePoint" />
+            <mxPoint x="140" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xp_wefksQ9KYBnecpLCK-9" value="cxo-order" style="swimlane;startSize=20;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="50" width="160" height="510" as="geometry" />
         </mxCell>
@@ -49,7 +55,7 @@
           <mxGeometry x="25" y="130" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xp_wefksQ9KYBnecpLCK-11" value="trade-core" style="swimlane;startSize=20;html=1;" vertex="1" parent="xp_wefksQ9KYBnecpLCK-15">
-          <mxGeometry x="-130" width="145" height="510" as="geometry" />
+          <mxGeometry x="-130" width="130" height="510" as="geometry" />
         </mxCell>
         <mxCell id="xp_wefksQ9KYBnecpLCK-16" value="交易订单下单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xp_wefksQ9KYBnecpLCK-11">
           <mxGeometry x="25" y="130" width="80" height="40" as="geometry" />
@@ -58,7 +64,7 @@
           <mxGeometry x="25" y="230" width="80" height="45" as="geometry" />
         </mxCell>
         <mxCell id="xp_wefksQ9KYBnecpLCK-38" value="获取订单详情" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="xp_wefksQ9KYBnecpLCK-11">
-          <mxGeometry x="30" y="300" width="75" height="40" as="geometry" />
+          <mxGeometry x="27.5" y="290" width="75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xp_wefksQ9KYBnecpLCK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="xp_wefksQ9KYBnecpLCK-15" source="xp_wefksQ9KYBnecpLCK-16" target="xp_wefksQ9KYBnecpLCK-17">
           <mxGeometry relative="1" as="geometry" />
@@ -96,6 +102,25 @@
         </mxCell>
         <mxCell id="xp_wefksQ9KYBnecpLCK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xp_wefksQ9KYBnecpLCK-21" target="xp_wefksQ9KYBnecpLCK-22">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xp_wefksQ9KYBnecpLCK-40" value="wss通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xp_wefksQ9KYBnecpLCK-35">
+          <mxGeometry x="-0.3867" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xp_wefksQ9KYBnecpLCK-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xp_wefksQ9KYBnecpLCK-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xp_wefksQ9KYBnecpLCK-22" target="xp_wefksQ9KYBnecpLCK-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xp_wefksQ9KYBnecpLCK-43" value="1分钟超时补偿交易结果&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xp_wefksQ9KYBnecpLCK-42">
+          <mxGeometry x="-0.3385" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
