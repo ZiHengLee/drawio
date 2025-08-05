@@ -38,7 +38,7 @@
         <mxCell id="tRNVDW8AJXRH3d491mD7-53" value="trade" style="swimlane;startSize=20;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="140" width="130" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="tRNVDW8AJXRH3d491mD7-59" value="创建模拟器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tRNVDW8AJXRH3d491mD7-53">
+        <mxCell id="tRNVDW8AJXRH3d491mD7-59" value="创建模拟器/自动化交易" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tRNVDW8AJXRH3d491mD7-53">
           <mxGeometry x="30" y="55" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tRNVDW8AJXRH3d491mD7-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="tRNVDW8AJXRH3d491mD7-53" source="tRNVDW8AJXRH3d491mD7-75" target="tRNVDW8AJXRH3d491mD7-85">
@@ -56,7 +56,10 @@
         <mxCell id="tRNVDW8AJXRH3d491mD7-60" value="创建跟单策略工作流" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tRNVDW8AJXRH3d491mD7-54">
           <mxGeometry x="29" y="55" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tRNVDW8AJXRH3d491mD7-65" value="创建购买模拟订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tRNVDW8AJXRH3d491mD7-54">
+        <mxCell id="tRNVDW8AJXRH3d491mD7-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tRNVDW8AJXRH3d491mD7-54" source="tRNVDW8AJXRH3d491mD7-65" target="tRNVDW8AJXRH3d491mD7-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tRNVDW8AJXRH3d491mD7-65" value="触发购买模拟signal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tRNVDW8AJXRH3d491mD7-54">
           <mxGeometry x="30" y="140" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tRNVDW8AJXRH3d491mD7-79" value="创建卖出订单工作流" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tRNVDW8AJXRH3d491mD7-54">
