@@ -31,7 +31,7 @@
         <mxCell id="tRNVDW8AJXRH3d491mD7-53" value="trade" style="swimlane;startSize=20;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="100" width="130" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="tRNVDW8AJXRH3d491mD7-59" value="创建&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;自动化交易&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="tRNVDW8AJXRH3d491mD7-53" vertex="1">
+        <mxCell id="tRNVDW8AJXRH3d491mD7-59" value="创建&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;自动化交易器&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="tRNVDW8AJXRH3d491mD7-53" vertex="1">
           <mxGeometry x="32.5" y="50" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tRNVDW8AJXRH3d491mD7-75" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;创建买入订单&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="tRNVDW8AJXRH3d491mD7-53" vertex="1">
