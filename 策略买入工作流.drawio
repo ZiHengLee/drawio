@@ -51,7 +51,7 @@
           <mxGeometry x="35.5" y="40" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rgNBKKupeEj_MK_goelM-20" value="跟单策略工作流" style="swimlane;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-290" y="250" width="220" height="440" as="geometry" />
+          <mxGeometry x="-270" y="250" width="220" height="440" as="geometry" />
         </mxCell>
         <mxCell id="rgNBKKupeEj_MK_goelM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="rgNBKKupeEj_MK_goelM-20" source="rgNBKKupeEj_MK_goelM-21" target="rgNBKKupeEj_MK_goelM-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
